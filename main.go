@@ -14,7 +14,7 @@ func main() {
 		),
 
 		fx.Invoke(
-			func(s settings.Settings) {
+			func(s *settings.Settings) {
 				log.Println(s)
 			},
 		),
